@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0%;
+    border: 0px;
+}
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #E0E1DD;
+    font-family: "Stack Sans Notch", sans-serif;
+}
+.container{
+    background-color: #778DA9;
+    padding: 8vh;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 #778DA9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main .container .heading{
+    font-size: 3vw;
+    color: #0D1B2A;
+    text-shadow: 0 0 30px #0D1B2A;
+}
+main .container .line{
+    background-color: #E0E1DD;
+    height: 2px;
+    width: 20vh;
+    margin: 20px 0;
+    border-radius: 30px;
+}
+main .container .textbox input{
+    padding: 10px;
+    border-radius: 30px;
+    width: 20vw;
+}
+main .container .textbox button{
+    padding: 10px;
+    border-radius: 30px;
+    width: 10vh;
+    margin-left: 5px;
+    background-color: #1B263B;
+    color: #E0E1DD;
+}
+main .container .textbox button:hover{
+    background-color: #E0E1DD;
+    color: #1B263B;
+}
+main .container .textbox input:focus{
+    outline: none;
+}
+main .container ul{
+    
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 2vw;
+}
+main .container ul li{
+    color: #E0E1DD;
+    list-style: none;
+    border: 1px #E0E1DD solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25.5vw;
+}
+main .container ul button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #E0E1DD;
+    background-color: #415A77;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
